@@ -1,0 +1,39 @@
+/* 2개의 컬럼을 나란히 정렬
+.user-component {
+  display: flex;
+}
+*/
+
+/* 2개의 컬럼을 나란히 정렬하고 첫 번째 컬럼의 요소들도 나란히 정렬,
+   중알 정렬*/
+.user-component,
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__avatar {
+  /* 중간 사이즈 */
+  width: 70px;
+  height: 70px;
+  border-radius: 27px;
+  margin-right: 20px;
+}
+
+.user-component__title {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.user-component__subtitle {
+  margin-top: 8px;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.user-component__avatar--xl {
+  width: 80px;
+  height: 80px;
+}
+
+/* 반복되는 것들을 component로 만들면 작업하기 쉽다. */
