@@ -19,5 +19,40 @@
 }
 
 .nav__link {
+  position: relative;
   color: #2e3633;
+}
+
+.nav__notification {
+  background-color: tomato;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px; /* 사각형 width의 반을 값으로 하면 원이 된다. */
+  display: flex; /* 숫자를 원의 중간으로  */
+  justify-content: center;
+  align-items: center;
+  /* display: block;  span을 block으로 설정해 높이와 너비 적용 
+                     display: flex;
+                     justify-content: center;
+                     align-items: center;
+                     작성 후 지움 */
+  color: white;
+  font-weight: 600px;
+  position: absolute; /* 숫자가 메시지 아이콘 위로 
+                         absolute를 적용시키기 위해
+                         nav__notification을 감싸고 있는
+                         container에 relative를 적용 시킨다. */
+  left: 15px;
+  bottom: 15px;
+}
+
+.nav__new-things {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  display: block;
+  position: absolute;
+  left: 30px;
+  bottom: 25px;
 }
