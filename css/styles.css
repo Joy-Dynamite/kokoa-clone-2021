@@ -20,4 +20,8 @@ body {
   padding-top: 26px;
 }
 
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}
+
 /* 파일 순서를 지키는 게 매우 중요*/

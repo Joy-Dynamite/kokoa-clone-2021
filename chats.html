@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends - Kokoa Clone</title>
+    <title>Chats - Kokoa Clone</title>
   </head>
   <body>
     <!-- 간편하게 index.html의 status-bar 그대로 적용-->
@@ -24,23 +24,18 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <h1 class="screen-header__title">Chats</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="far fa-comment-dots fa-lg"></i></span>
         <span><i class="fas fa-music fa-lg"></i></span>
         <span><i class="fas fa-cog fa-lg"></i></span>
       </div>
     </header>
 
-    <!-- 다른 스크린에서는 볼 수 없는 부분 -->
-    <a id="friends-display-link">
-      <i class="fas fa-info-circle"></i> Friends' Names Display
-      <i class="fas fa-chevron-right fa-xs"></i>
-    </a>
-
     <!-- friends 스크린과 다른 스크린에도 같은 padding 주기 위해 
         하나의 box로 묶음 -->
-    <main class="friends-screen">
+    <main class="main-screen">
       <!-- 다른 screen에서도 반복해서 사용된다. 
          2개의 컬럼이 있는데 왼쪽 컬럼에는 사진과 텍스트가 있고
         오른쪽 컬럼에는 부가적인 것들이 들어감 -->
@@ -48,41 +43,17 @@
         <div class="user-component__column">
           <img
             src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxOTA4MThfMjMz%2FMDAxNTY2MDkyMzU1MzMy.-Cy8rTqesSmF3r_p2FretPH__-Xh8-RCZMO68lhlBCsg.u58agYB9epjxEe9iXXT3mAVOgqDPQgi_KODRSPo4Ss8g.JPEG.tramtram97%2FIMG_9360.JPG&type=a340"
-            class="user-component__avatar user-component__avatar--xl"
+            class="user-component__avatar user-component__avatar"
           />
-          <!-- 이미지 사이즈 변형 가능 여기서는 xl 적용-->
+          <!-- 이미지 사이즈 변형 가능 여기서는 중간 사이즈 적용-->
           <div class="user-component__text">
             <h4 class="user-component__title">Joy</h4>
-            <!-- <h6 class="user-component__subtitle">text</h6> -->
+            <h6 class="user-component__subtitle">
+              Please check My Kakao Account Info
+            </h6>
           </div>
         </div>
         <div class="user-component__column"></div>
-      </div>
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <span>Channel</span>
-          <i class="fas fa-chevron-up fa-xs"></i>
-        </div>
-        <!-- 위에서 작성한 user-component 사용 -->
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxOTA4MThfMjMz%2FMDAxNTY2MDkyMzU1MzMy.-Cy8rTqesSmF3r_p2FretPH__-Xh8-RCZMO68lhlBCsg.u58agYB9epjxEe9iXXT3mAVOgqDPQgi_KODRSPo4Ss8g.JPEG.tramtram97%2FIMG_9360.JPG&type=a340"
-              class="user-component__avatar user-component__avatar--sm"
-            />
-            <!-- 이미지 사이즈 sm 적용-->
-            <div class="user-component__text">
-              <h4 class="user-component__title user-component__title--not-bold">
-                Channel
-              </h4>
-              <!-- 글씨체 not bold 적용 -->
-            </div>
-          </div>
-          <div class="user-component__column">
-            <span>2</span>
-            <i class="fas fa-chevron-right fa-xs"></i>
-          </div>
-        </div>
       </div>
     </main>
 
@@ -92,7 +63,8 @@
       <ul class="nav__list">
         <li class="nav__btn">
           <a class="nav__link" href="friends.html">
-            <i class="fas fa-user fa-2x"></i>
+            <!-- Chats 창에 오면 빈 아이콘 -->
+            <i class="far fa-user fa-2x"></i>
           </a>
           <!-- fa-2x는 icon의 크기 -->
         </li>
@@ -100,7 +72,8 @@
           <a class="nav__link" href="chats.html">
             <!-- 숫자 알림 -->
             <span class="nav__notification">1</span>
-            <i class="far fa-comment fa-2x"></i>
+            <!-- Chats 창에서는 꽉 찬 아이콘 -->
+            <i class="fas fa-comment fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">
@@ -123,3 +96,5 @@
     ></script>
   </body>
 </html>
+
+<!-- friends.html을 복사해서 붙이고 다른 부분을 변경 -->
