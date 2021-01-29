@@ -5,6 +5,8 @@
   padding: 15px 0px;
   font-size: 18px;
   margin-bottom: 15px;
+  /* screen-header.css에 margin-bottom이 추가된 게 있어서 */
+  margin-top: -15px;
 }
 
 #friends-display-link i {

@@ -1,0 +1,16 @@
+.badge {
+  background-color: tomato;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px; /* 사각형 width의 반을 값으로 하면 원이 된다. */
+  display: flex; /* 숫자를 원의 중간으로  */
+  justify-content: center;
+  align-items: center;
+  /* display: block;  span을 block으로 설정해 높이와 너비 적용 
+                     display: flex;
+                     justify-content: center;
+                     align-items: center;
+                     작성 후 지움 */
+  color: white;
+  font-weight: 600px;
+}

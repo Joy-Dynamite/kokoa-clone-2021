@@ -52,7 +52,16 @@
 
 .user-component__column:last-child {
   /* 오른쪽 요소가 회색을 갖도록 한다. */
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.4);
+  /*오른쪽으로*/
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.user-component__time {
+  margin-bottom: 10px;
+  display: block;
 }
 
 /* 반복되는 것들을 component로 만들면 작업하기 쉽다. */

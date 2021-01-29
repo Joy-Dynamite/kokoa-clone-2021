@@ -79,8 +79,11 @@
             </div>
           </div>
           <div class="user-component__column">
-            <span>2</span>
-            <i class="fas fa-chevron-right fa-xs"></i>
+            <!-- div로 감싸줌으로써 부모의 flex 방향에 영향을 받지 않음 -->
+            <div>
+              <span>2</span>
+              <i class="fas fa-chevron-right fa-xs"></i>
+            </div>
           </div>
         </div>
       </div>
@@ -99,7 +102,8 @@
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
             <!-- 숫자 알림 -->
-            <span class="nav__notification">1</span>
+            <!-- badge 클래스를 만들어 필요할 때 적용 -->
+            <span class="nav__notification badge">1</span>
             <i class="far fa-comment fa-2x"></i>
           </a>
         </li>
