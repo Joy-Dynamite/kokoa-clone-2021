@@ -7,7 +7,6 @@
     <title>Friends - Kokoa Clone</title>
   </head>
   <body>
-    <!-- 간편하게 index.html의 status-bar 그대로 적용-->
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -32,28 +31,20 @@
       </div>
     </header>
 
-    <!-- 다른 스크린에서는 볼 수 없는 부분 -->
     <a id="friends-display-link">
       <i class="fas fa-info-circle"></i> Friends' Names Display
       <i class="fas fa-chevron-right fa-xs"></i>
     </a>
 
-    <!-- friends 스크린과 다른 스크린에도 같은 padding 주기 위해 
-        하나의 box로 묶음 -->
     <main class="friends-screen">
-      <!-- 다른 screen에서도 반복해서 사용된다. 
-         2개의 컬럼이 있는데 왼쪽 컬럼에는 사진과 텍스트가 있고
-        오른쪽 컬럼에는 부가적인 것들이 들어감 -->
       <div class="user-component">
         <div class="user-component__column">
           <img
             src="https://images.unsplash.com/photo-1581120903907-aeb165447d80?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDI0fF84ekZIdWhSaHlvfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
             class="user-component__avatar user-component__avatar--xl"
           />
-          <!-- 이미지 사이즈 변형 가능 여기서는 xl 적용-->
           <div class="user-component__text">
             <h4 class="user-component__title">Tata</h4>
-            <!-- <h6 class="user-component__subtitle">text</h6> -->
           </div>
         </div>
         <div class="user-component__column"></div>
@@ -63,23 +54,19 @@
           <span>Channel</span>
           <i class="fas fa-chevron-up fa-xs"></i>
         </div>
-        <!-- 위에서 작성한 user-component 사용 -->
         <div class="user-component">
           <div class="user-component__column">
             <img
               src="https://images.unsplash.com/photo-1581120903907-aeb165447d80?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDI0fF84ekZIdWhSaHlvfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
               class="user-component__avatar user-component__avatar--sm"
             />
-            <!-- 이미지 사이즈 sm 적용-->
             <div class="user-component__text">
               <h4 class="user-component__title user-component__title--not-bold">
                 Channel
               </h4>
-              <!-- 글씨체 not bold 적용 -->
             </div>
           </div>
           <div class="user-component__column">
-            <!-- div로 감싸줌으로써 부모의 flex 방향에 영향을 받지 않음 -->
             <div>
               <span>2</span>
               <i class="fas fa-chevron-right fa-xs"></i>
@@ -89,20 +76,15 @@
       </div>
     </main>
 
-    <!-- 하단의 navigation bar 
-         font awesome에서 icon을 가져옴 -->
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
           <a class="nav__link" href="friends.html">
             <i class="fas fa-user fa-2x"></i>
           </a>
-          <!-- fa-2x는 icon의 크기 -->
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
-            <!-- 숫자 알림 -->
-            <!-- badge 클래스를 만들어 필요할 때 적용 -->
             <span class="nav__notification badge">1</span>
             <i class="far fa-comment fa-2x"></i>
           </a>

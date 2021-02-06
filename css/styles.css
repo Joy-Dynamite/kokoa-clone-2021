@@ -24,12 +24,9 @@ body {
   color: #2e3633;
   font-family: "Open Sans", sans-serif;
   height: 1000vh;
-  /* padding-top으로 status-bar와 screen-bar가 겹치는 것을 방지*/
   padding-top: 26px;
 }
 
 .main-screen {
   padding: 0px var(--horizontal-space);
 }
-
-/* 파일 순서를 지키는 게 매우 중요*/

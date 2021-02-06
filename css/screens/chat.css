@@ -104,7 +104,7 @@
   display: flex;
   justify-content: space-between;
   padding: 5px 25px;
-  box-sizing: border-box; /* padding이 element를 안보이게 해서 조정해준거다.*/
+  box-sizing: border-box;
   align-items: center;
   transition: transform 0.3s ease-in-out;
 }
@@ -121,9 +121,7 @@
 .reply input {
   padding: 10px;
   height: 30px;
-  width: 100%; /* 적용되지 않는다. 왜냐면 input이 column 안에 있기
-                  때문이다. 그런데 column은 width를 갖고있지 않다.
-                  그래서 위에 다시 코드 적어줌 */
+  width: 100%;
   border: var(--main-border);
   border-radius: 20px;
   transition: all 0.3s ease-in-out;
@@ -133,7 +131,7 @@
 .reply__column:last-child button {
   position: absolute;
   right: -16px;
-  top: 10px; /*absolute이기 때문에 일일이 봐야한다.*/
+  top: 10px;
 }
 
 .reply__column:last-child > i {
@@ -150,7 +148,7 @@
   border: none;
   width: 30px;
   height: 30px;
-  border-radius: 50%; /*이렇게 해도 된다.*/
+  border-radius: 50%;
 }
 
 .reply__column button i {

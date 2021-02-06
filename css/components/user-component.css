@@ -1,15 +1,7 @@
-/* 2개의 컬럼을 나란히 정렬
 .user-component {
-  display: flex;
-}
-*/
-
-.user-component {
-  justify-content: space-between; /* 2개의 컬럼을 분리*/
+  justify-content: space-between;
 }
 
-/* 2개의 컬럼을 나란히 정렬하고 첫 번째 컬럼의 요소들도 나란히 정렬,
-   중알 정렬*/
 .user-component,
 .user-component__column:first-child {
   display: flex;
@@ -17,7 +9,6 @@
 }
 
 .user-component__avatar {
-  /* 중간 사이즈 */
   width: 70px;
   height: 70px;
   border-radius: 27px;
@@ -51,9 +42,7 @@
 }
 
 .user-component__column:last-child {
-  /* 오른쪽 요소가 회색을 갖도록 한다. */
   color: rgba(0, 0, 0, 0.4);
-  /*오른쪽으로*/
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -63,5 +52,3 @@
   margin-bottom: 10px;
   display: block;
 }
-
-/* 반복되는 것들을 component로 만들면 작업하기 쉽다. */

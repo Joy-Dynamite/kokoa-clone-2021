@@ -1,7 +1,7 @@
 .screen-header {
-  display: flex; /* 나란히 정렬 */
+  display: flex;
   justify-content: space-between;
-  align-items: center; /* icon들을 중앙 정렬 */
+  align-items: center;
   padding: var(--horizontal-space);
   margin-bottom: 15px;
 }

@@ -6,7 +6,6 @@
 .icon-row__icon {
   display: flex;
   flex-direction: column;
-  /* Cross Axis 와 Main Axis가 바뀜 */
   align-items: center;
 }
 

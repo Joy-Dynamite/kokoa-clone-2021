@@ -1,5 +1,4 @@
 .status-bar {
-  /* status bar를 위쪽에 고정 */
   position: fixed;
   top: 0;
   width: 100%;

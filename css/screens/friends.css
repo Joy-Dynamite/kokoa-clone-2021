@@ -5,7 +5,6 @@
   padding: 15px 0px;
   font-size: 18px;
   margin-bottom: 15px;
-  /* screen-header.css에 margin-bottom이 추가된 게 있어서 */
   margin-top: -15px;
 }
 
@@ -25,7 +24,6 @@
 
 .friends-screen__channel-header {
   margin-bottom: 30px;
-  /*양쪽으로 분리*/
   display: flex;
   justify-content: space-between;
   color: rgba(0, 0, 0, 0.5);
@@ -43,9 +41,9 @@
 
 #splash-screen {
   background-color: var(--yellow);
-  position: absolute; /*이 div가 body에 기준해서 정렬 absolute이므로 모든 것의 위에 있다. */
-  height: 100vh; /* 화면 높이의 100%를 의미 */
-  width: 100vw; /* 화면 넓이의 100%를 말한다. */
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
   top: 0;
   display: flex;
   justify-content: center;

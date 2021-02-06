@@ -1,19 +1,14 @@
 .nav {
-  /* navigation bar를 아래쪽에 고정 */
   position: fixed;
   bottom: 0;
   width: 100%;
   background-color: #f9f9fa;
   padding: 20px 50px;
-  /* padding을 줘도 CSS가 신경쓰지 않도록
-     box 사이즈를 늘리지 않도록
-     CSS가 content가 보일 부분을 늘리지 않는다. */
   box-sizing: border-box;
   border-top: 1px solid rgba(121, 121, 121, 0.3);
 }
 
 .nav__list {
-  /* 아이콘을 수평으로 정렬 */
   display: flex;
   justify-content: space-between;
 }
@@ -36,10 +31,7 @@
 }
 
 .nav__notification {
-  position: absolute; /* 숫자가 메시지 아이콘 위로 
-                         absolute를 적용시키기 위해
-                         nav__notification을 감싸고 있는
-                         container에 relative를 적용 시킨다. */
+  position: absolute;
   left: 15px;
   bottom: 15px;
   animation: notificationAnimation 2s ease-in-out infinite;
@@ -67,7 +59,7 @@
 }
 
 .nav__btn {
-  transform: translateY(50px); /* 시작부터 모두가 translate 되어 있다. */
+  transform: translateY(50px);
   opacity: 0;
   animation: appearBtnAnimation 0.3s ease-in-out forwards;
 }
