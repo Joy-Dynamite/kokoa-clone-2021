@@ -52,3 +52,11 @@
   margin-bottom: 10px;
   display: block;
 }
+
+.main-screen .user-component {
+  margin-bottom: 16px;
+}
+
+.friends-screen__friends .user-component {
+  margin-bottom: 16px;
+}
