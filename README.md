@@ -17,6 +17,14 @@ https://joyfuldev.github.io/kokoa-clone-2021/
 🍑 Find (애니메이션 효과 넣은 하트)  
 🥝 More
 
+## 실행
+
+- 첫 화면  
+![스크린](https://user-images.githubusercontent.com/76932302/116783409-9206ce00-aac9-11eb-991c-bbf2597a2487.png)  
+  
+- width 줄인 화면 (모바일 화면)
+![스크린](https://user-images.githubusercontent.com/76932302/116783508-ff1a6380-aac9-11eb-903b-1f8ac934a7e3.gif)
+
 ## 학습 사이트
 
 https://nomadcoders.co/kokoa-clone
