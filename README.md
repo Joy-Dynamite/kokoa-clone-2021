@@ -10,7 +10,7 @@ https://joyfuldev.github.io/kokoa-clone-2021/
 🥝 화면을 보기 위해서는 웹사이트의 width를 줄이거나 모바일로 접속  
 🍇 Log In (Log in을 click하면 Friends 화면으로 이동)  
 🍉 Loading 화면 (Friends 화면으로 이동할 때 나타나는 애니메이션 효과)  
-🍊 아래의 navagation 아이콘  
+🍊 아래의 navagation 아이콘(Friends, Chats, Find, More)  
 🍋 Friends  
 🍎 Chats (각 채팅방을 click하면 채팅 화면으로 이동)  
 🍒 채팅방  
